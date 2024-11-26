@@ -40,12 +40,12 @@ export default function Home() {
           <p className="text-md text-muted-foreground mb-2">
             도르마무는 기억을 최적화하기 위해 복습이 필요한 주기를 제안해요.
           </p>
-          <ul className="text-sm text-muted-foreground list-disc list-inside mx-auto">
-            <ol>최초 복습 - 학습 직후 10분 내에</ol>
-            <ol>두번째 복습 - 24시간 내에</ol>
-            <ol>세번째 복습 - 일주일 내에</ol>
-            <ol>네번째 복습 - 한 달 내에</ol>
-          </ul>
+          <ol className="text-sm text-muted-foreground list-decimal list-inside mx-auto">
+            <li>최초 복습 - 학습 직후 10분 내에</li>
+            <li>두번째 복습 - 24시간 내에</li>
+            <li>세번째 복습 - 일주일 내에</li>
+            <li>네번째 복습 - 한 달 내에</li>
+          </ol>
         </div>
       </section>
 
